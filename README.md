@@ -1,6 +1,6 @@
 <div align="center">
 
-# VIPKID GITHUB MONITOR
+# GITHUB MONITOR
 
 [![License](https://img.shields.io/aur/license/yaourt.svg)](./LICENSE)
 [![](https://img.shields.io/badge/python-3.5|3.6|3.7-yellow.svg)](https://www.python.org/)
@@ -43,7 +43,7 @@
 
  首先复制根目录的`.env.docker`并重命名为`.env`，修改其中的`Email Settings`和`initial Administrator`配置。这两个配置分别控制邮件提醒，以及初始管理帐号密码。
  
- **注意: 如果需要访问的地址不是`127.0.0.1`或`localhost`, 需要修改`ALLOWED_HOST`参数,将访问地址加到里面, 如: `ALLOWED_HOSTS="127.0.0.1,localhost,github.sec.vipkid.com.cn"`**
+ **注意: 如果需要访问的地址不是`127.0.0.1`或`localhost`, 需要修改`ALLOWED_HOST`参数,将访问地址加到里面, 如: `ALLOWED_HOSTS="*"`//任何地址**
  
 #### 一键启动
  
