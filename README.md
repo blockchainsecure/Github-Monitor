@@ -14,7 +14,7 @@
 
 -----
 
-**GITHUB MONITOR** 是vipkid安全研发团队打造的用于监控Github代码仓库的系统。通过该系统可以及时发现企业内部代码泄露、从而降低由于代码泄露导致的一系列安全风险。用户仅需通过简单的任务配置，即可在分钟级发现代码泄露的情况。项目后端使用 **[django-rest-framework](https://www.django-rest-framework.org/)** 开发，前端使用 **[react](https://reactjs.org/)** 和 **[antd-pro](https://pro.ant.design/)** 开发。
+**GITHUB MONITOR** 通过该系统可以及时发现企业内部代码泄露、从而降低由于代码泄露导致的一系列安全风险。用户仅需通过简单的任务配置，即可在分钟级发现代码泄露的情况。项目后端使用 **[django-rest-framework](https://www.django-rest-framework.org/)** 开发，前端使用 **[react](https://reactjs.org/)** 和 **[antd-pro](https://pro.ant.design/)** 开发。
 
 
 ## 系统特点
@@ -30,7 +30,7 @@
 
 首先将代码clone到本地：
 
- ```git clone https://github.com/VKSRC/Github-Monitor.git```
+ ```git clone https://github.com/blockchainsecure/Github-Monitor.git```
 
 
 ### 1. docker 部署
@@ -176,9 +176,5 @@ Github API有次数限制，1分钟最多请求30次，为了提高爬取速度�
 - 加白：确认无风险，以后不会再提醒，如果文件有修改，还是会再次提醒。
 - 忽略仓库：批量加白该仓库下已经发现的信息。
 
-## 联系我们
 
-关注VKSRC微信公众号，有任何建议和意见都可以发送到公众号/提交Issue。
-
-![Wechat](docs/media/wechat.jpeg)
 
