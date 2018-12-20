@@ -36,7 +36,7 @@
           null,
           'Copyright ',
           r.default.createElement(o.default, { type: 'copyright' }),
-          ' 2018 VIPKID - \u5b89\u5168\u4e2d\u5fc3'
+          ' 2018  - \u5b89\u5168\u4e2d\u5fc3'
         );
       class p extends r.default.PureComponent {
         render() {
@@ -56,11 +56,11 @@
                   r.default.createElement(
                     d.default,
                     { to: '/' },
-                    r.default.createElement('img', {
+                    /*r.default.createElement('img', {
                       alt: 'logo',
                       className: s.default.logo,
                       src: c.default,
-                    }),
+                    }),*/
                     r.default.createElement(
                       'span',
                       { className: s.default.title },
@@ -71,7 +71,7 @@
                 r.default.createElement(
                   'div',
                   { className: s.default.desc },
-                  'Github\u6cc4\u6f0f\u4fe1\u606f\u76d1\u63a7\u5e73\u53f0'
+                  /*'Github\u6cc4\u6f0f\u4fe1\u606f\u76d1\u63a7\u5e73\u53f0'*/
                 )
               ),
               e
