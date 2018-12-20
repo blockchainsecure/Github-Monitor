@@ -92,7 +92,7 @@
               o.default.createElement(
                 u.default,
                 { to: '/' },
-                o.default.createElement('img', { src: t, alt: 'logo' }),
+                /*o.default.createElement('img', { src: t, alt: 'logo' }),*/
                 o.default.createElement('h1', null, 'Github Monitor')
               )
             ),
@@ -226,7 +226,7 @@
                 d.default.createElement(
                   u.default,
                   { to: '/', className: h.default.logo, key: 'logo' },
-                  d.default.createElement('img', { src: l, alt: 'logo', width: '32' })
+                  /*d.default.createElement('img', { src: l, alt: 'logo', width: '32' })*/
                 ),
               d.default.createElement(o.default, {
                 className: h.default.trigger,
@@ -1377,7 +1377,7 @@
                   i.default.createElement(
                     o.default,
                     { to: '/' },
-                    i.default.createElement('img', { src: l, alt: 'logo' }),
+                    /*i.default.createElement('img', { src: l, alt: 'logo' }),*/
                     i.default.createElement('h1', null, 'Github Monitor')
                   )
                 ),
